@@ -30,7 +30,7 @@ def main():
         break
       if numGuesses > MAX_GUESSES:
         print( 'Охххх.....' )
-        print( 'Я загадал число {}'.format( secretNum )         
+        print( 'Я загадал число {}'.format( secretNum ) )         
     
     print( 'Ещё раз ? ( нажми 1 если Да и затем нажми enter )' )
     if not input( '> ' ).startswith( '1' ):
