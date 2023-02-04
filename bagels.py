@@ -10,13 +10,13 @@ def main():
   print( 'Эта программа посвящается моему сыну, Андрею !' )
   print( '******************************' )
   print( 'Привет, Андрей !' )
-  while True:
+  while True :
     secretNum = getSecretNum()
     print( 'Я задумал число' )
     print( 'У тебя {} попыток'.format( MAX_GUESSES ) )
 
     numGuesses = 1
-    while numGuesses <= MAX_GUESSES 
+    while numGuesses <= MAX_GUESSES : 
       guess = ''
       while len( guess ) != NUM_DIGITS or not guess.isdecimal():
         print( 'Guess #{}: '.format( numGuesses ) )   
