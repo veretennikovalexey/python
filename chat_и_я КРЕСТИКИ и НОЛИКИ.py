@@ -100,7 +100,7 @@ while True:
             pygame.quit()
             sys.exit()
         elif event.type == pygame.MOUSEBUTTONDOWN:
-            if is_board_full() or check_winner() == 'O':
+            if is_board_full() or check_winner() == 'O' or check_winner() == 'X':
                 pygame.quit()
                 sys.exit()                
             row = event.pos[1] // CELL_SIZE
